@@ -1,0 +1,9 @@
+.app{
+    background-color: var(--white);
+    border-radius: 16px;
+    border: 4px solid var(--black);
+    box-shadow: 28px 28px 0px -4px var(--black);
+    height: calc(100vh - 72px);
+    margin: 36px;
+    width: calc(100vw - 72px);
+}

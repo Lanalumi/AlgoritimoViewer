@@ -1,32 +1,9 @@
-import { useState} from "react";
-
-const Button = ({onClick, children, isDisabled }) => {
-  return(
-    <button
-    onClick={onClick}
-    disabled={isDisabled}
-    >
-    {children}
-    </button>
-  );
-};
+import "./App.scss";
 
 function App() {
-
- const [count, setCount] = useState(0);
  
- 
-   return (
-    <div>
-      <button onClick={() => setCount(count + 1)}>+</button>
-      <p>{count}</p>
-      <Button
-        onClick={() => setCount(count - 1)}
-        isDisabled={count <=0}
-      >
-      -
-      </Button>
-    </div>
+  return (
+    <div className = "app">01</div>
   )
 }
 export default App

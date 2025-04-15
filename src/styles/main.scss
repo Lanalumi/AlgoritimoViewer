@@ -1,1 +1,7 @@
-@import url("./variables.scss");
+@import url("./_variables.scss");
+@import url("./_reset.scss");
+
+body {
+    background: linear-gradient(68deg, var(--pink) 0.77%, var(--blue) 99.23%);
+}
+
