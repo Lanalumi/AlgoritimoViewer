@@ -1,0 +1,35 @@
+.header {
+    padding: 8px 16px;
+    border-bottom: 4px solid var(--black);
+    position: relative;
+}
+
+.fake-menu{
+    display: flex;
+    gap: 4px;
+    position: absolute;
+    &__dot{
+        border-radius: 50%;
+        border: 2px solid var(--black);
+        box-shadow: 1px 1px 0px var(--black);
+        height: 16px;
+        width: 16px;
+
+        &--emph{
+            background-color: var(--black);
+        }
+    }
+}
+
+
+.title{
+    color: var(--black);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
